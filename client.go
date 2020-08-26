@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/progrium/duplex/poc2/duplex"
+	"github.com/progrium/duplex/golang/duplex"
 )
 
 func client(backendConnect, localConnect, vhostName string) {
